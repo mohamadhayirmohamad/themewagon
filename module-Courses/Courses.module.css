@@ -1,0 +1,316 @@
+
+/* القسم العلوي */
+.heroSection {
+    background-color: #34bd54; /* اللون الأخضر */
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .title1 {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 19px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* قسم البار السفلي */
+  .breadcrumbSection {
+    background-color: #25a341; /* لون أخضر أغمق */
+    color: white;
+    padding: 19px ;
+  
+  }
+  
+  .breadcrumb {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 5px;
+  }
+
+
+
+/* start cards  */
+
+
+
+
+
+
+
+
+
+.sectionTitle {
+  font-size: 1rem;
+  color: #8e8e8e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* تصميم الكروت */
+.courseCard {
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #62c779;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  transition: background-color 0.5s, transform 0.5s !important;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
+.cardTitle {
+  font-size: 1.65rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cardText {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: -50px;
+}
+
+.hrs{
+  position: relative;
+  top: 60px;
+}
+.user{
+position: relative;
+top: 50px;
+}
+
+.author {
+  align-items: end;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.ims{
+  width: 60px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #66c87d;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* end cards  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* strat footer  */
+
+
+
+.footer {
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  .footerTitle {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+  }
+  
+  .footerList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerList li {
+    margin-bottom: 10px;
+  }
+  
+  .footerList li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footerList li a:hover {
+    color: #28a745;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    background: #e9ecef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #666;
+    font-size: 18px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .iconHover:hover {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  /* تحديث تصميم الإينبوت */
+  .input {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    flex: 1;
+    border-radius: 50px; /* لإعطاء الحواف الدائرية */
+    font-size: 14px;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* تأثير الهوفر على الإينبوت */
+  .input:focus {
+    border-color: #28a745;
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+  }
+  
+  /* تصميم زر الاشتراك */
+  .subscribeButton {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px; /* لجعل الحواف دائرية */
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* تأثير الهوفر على زر الاشتراك */
+  .subscribeButton:hover {
+    background: #218838;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(23, 135, 49, 0.3);
+  }
+  
+  /* حاوية النموذج */
+  .newsletterForm {
+    display: flex; /* وضع الإينبوت والزر في صف واحد */
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50px; /* جعل الحواف دائرية */
+    overflow: hidden; /* لإخفاء أي حدود إضافية */
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* تصميم الإينبوت */
+  .input {
+    flex: 20 !important; /* يجعل الإينبوت يتمدد ليأخذ أكبر مساحة ممكنة */
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    border-radius: 20px; /* إزالة الحواف الدائرية (تعتمد على الحاوية) */
+  }
+  
+  /* تصميم زر الاشتراك */
+  .subscribeButton {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* تأثير الهوفر على الزر */
+  .subscribeButton:hover {
+    background: #218838;
+  }
+  
+  /* تأثير الهوفر على الحاوية */
+  .newsletterForm:hover {
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+  }
+  
+  
+  .copyright {
+  align-items: flex-center;
+  height: 200px;
+    width: 55%;
+  background-color: #e9e9e9;
+    font-size: 17px;
+    color: #999;
+    border-radius: 33px;
+    padding: 10px;
+    padding-top:80px;
+  }
+  
+  
+
+/* end footer  */
+
